@@ -1,1 +1,22 @@
-
+~/cli-basics-assignment-ashleyfong21$ pwd
+/home/runner/cli-basics-assignment-ashleyfong21
+~/cli-basics-assignment-ashleyfong21$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-ashleyfong21$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-ashleyfong21$ cd CLIBasicsFolder
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ touch myfile.txt 
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ echo Ashley Fong ICS4U1 >> myfile.txt 
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ cat myfile.txt 
+Ashley Fong ICS4U1
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt 
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ ls ~
+cli-basics-assignment-ashleyfong21  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-ashleyfong21/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-ashleyfong21$ rm -r CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-ashleyfong21$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-ashleyfong21$ ls ~
+cli-basics-assignment-ashleyfong21  myfile2.txt  _test_runner.py 
